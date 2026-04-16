@@ -4,11 +4,11 @@
    Paso 2: Variables
 ========================= */
 
-const nombre = 'Pablo';
-const apellido = 'Torres';
-let edad = 25;
+const nombre = 'Mateo';
+const apellido = 'Paez';
+let edad = 20;
 const carrera = 'Computación';
-let semestre = 7;
+let semestre = 5;
 const activo = true;
 
 const materias = ['Web', 'IA', 'Base de Datos'];
