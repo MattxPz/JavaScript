@@ -1,0 +1,115 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Contenedor principal */
+#app {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 10px;
+}
+
+/* Secciones */
+.info-estudiante,
+.estadisticas {
+  background: #f4f4f4;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+}
+
+/* Filtros */
+.filtros {
+  margin-bottom: 15px;
+}
+
+.btn-filtro {
+  padding: 8px 12px;
+  margin-right: 5px;
+  border: none;
+  background: #ddd;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.btn-filtro-activo {
+  background: #333;
+  color: #fff;
+}
+
+/* Lista de tarjetas */
+#contenedor-lista {
+  display: grid;
+  gap: 10px;
+}
+
+/* Card */
+.card {
+  background: #fff;
+  border: 1px solid #ccc;
+  padding: 12px;
+  border-radius: 6px;
+}
+
+/* Badges */
+.badges {
+  margin: 8px 0;
+}
+
+.badge {
+  display: inline-block;
+  padding: 3px 8px;
+  margin-right: 5px;
+  font-size: 12px;
+  border-radius: 4px;
+  background: #eee;
+}
+
+/* Colores por prioridad */
+.prioridad-alta {
+  background: #ff6b6b;
+  color: white;
+}
+
+.prioridad-media {
+  background: #f7b731;
+  color: white;
+}
+
+.prioridad-baja {
+  background: #2ecc71;
+  color: white;
+}
+
+/* Estado */
+.estado-activo {
+  background: #3498db;
+  color: white;
+}
+
+.estado-inactivo {
+  background: #7f8c8d;
+  color: white;
+}
+
+/* Botón eliminar */
+.card-actions {
+  margin-top: 10px;
+}
+
+.btn-eliminar {
+  padding: 6px 10px;
+  border: none;
+  background: #e74c3c;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.btn-eliminar:hover {
+  background: #c0392b;
+}
