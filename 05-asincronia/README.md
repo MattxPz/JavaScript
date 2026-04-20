@@ -10,6 +10,7 @@ La carga secuencial ejecuta cada petición asíncrona una tras otra. El sistema 
 ## 3. Fragmentos de código relevantes
 
 ### 3.1 Función que retorna promesa con setTimeout
+```javascript
 function simularPeticion(nombre, tiempoMin = 500, tiempoMax = 2000, fallar = false) {
   return new Promise((resolve, reject) => {
     const tiempoDelay = Math.floor(Math.random() * (tiempoMax - tiempoMin + 1)) + tiempoMin;
@@ -22,8 +23,10 @@ function simularPeticion(nombre, tiempoMin = 500, tiempoMax = 2000, fallar = fal
     }, tiempoDelay);
   });
 }
+```
 
 ### 3.2 Carga secuencial con await consecutivos
+```javascript
 async function cargarSecuencial() {
   try {
     const usuario = await simularPeticion('Usuario', 500, 1000);
@@ -33,8 +36,10 @@ async function cargarSecuencial() {
     mostrarLog(`Error: ${error.message}`, 'error');
   }
 }
+```
 
 ### 3.3 Carga paralela con Promise.all
+```javascript
 async function cargarParalelo() {
   try {
     const promesas = [
@@ -47,8 +52,10 @@ async function cargarParalelo() {
     mostrarLog(`Error: ${error.message}`, 'error');
   }
 }
+```
 
 ### 3.4 Manejo de errores con try/catch
+```javascript
 async function simularError() {
   try {
     await simularPeticion('API', 500, 1000, true);
@@ -69,6 +76,7 @@ function iniciar() {
     }
   }, 1000);
 }
+```
 
 ## 4. Capturas
 
