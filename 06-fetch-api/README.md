@@ -20,15 +20,20 @@ Este proyecto implementa una aplicación web con consumo de API, separando la l�
 
 ## Estructura del Proyecto
 ```
-/project
-│── /assets # Capturas de pantalla
-│── /components # Componentes de la aplicación
-│── /services
-│ └── api.js # Servicio API (fetch / axios)
-│── index.html
-│── app.js
-│── styles.css
-│── README.md
+/06-fetch-api
+  ├── index.html
+  ├── css/
+  │     └── styles.css
+  ├── js/
+  │     └── app.js
+  │     └── apiService.js
+  │     └── components.js
+  ├── assets/
+  │     ├── 01-lista.png
+  │     ├── 03-crear.png
+  │     ├── 04-editar.png
+  │     └── ...
+  └── README.md
 ```
 
 ---
