@@ -19,6 +19,7 @@ Este proyecto implementa una aplicación web con consumo de API, separando la l�
 ---
 
 ## Estructura del Proyecto
+```
 /project
 │── /assets # Capturas de pantalla
 │── /components # Componentes de la aplicación
@@ -28,7 +29,7 @@ Este proyecto implementa una aplicación web con consumo de API, separando la l�
 │── app.js
 │── styles.css
 │── README.md
-
+```
 
 ---
 
