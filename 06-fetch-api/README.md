@@ -135,6 +135,6 @@ Se muestra mientras se realiza una petición a la API.
 
 ---
 
-## Autor
+## Autor - Mateo Paez
 
 Proyecto desarrollado como práctica de consumo de APIs y manejo de operaciones CRUD en frontend.
